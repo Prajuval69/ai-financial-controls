@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.egg-info/
+artifacts/*.csv
+artifacts/*.json
+artifacts/*.joblib
+data/generated/*.csv
+*.db
+reports/*.csv
+
+# Internal build specifications and planning notes are not part of the public portfolio.
+*_SPEC.md
+MASTER_PROMPT.md
+PROJECT_SPEC.md
+ARCHITECTURE.md
+IMPLEMENTATION_PLAN.md
+INTERVIEW_NOTES.md
+README_REQUIREMENTS.md
+RESUME_MAPPING.md

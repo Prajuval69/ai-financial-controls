@@ -1,0 +1,18 @@
+seed: 20260915
+n_accounts: 50
+n_vendors: 300
+n_customers: 500
+n_transactions: 20000
+anomaly_rate: 0.035
+quality_defect_rate: 0.004
+model_contamination: 0.04
+model_threshold_quantile: 0.96
+review_risk_levels: [High, Critical]
+data_dir: data/generated
+artifact_dir: artifacts
+report_dir: reports
+database_path: artifacts/audit_analytics.db
+model_version: isolation-forest-v1.0
+period_start: "2025-01-01"
+period_end: "2025-12-31"
+
