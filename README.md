@@ -103,7 +103,7 @@ reports/                     Generated reports and registers
 scripts/                     Pipeline entry point
 src/financial_audit_ai/      Modular application package
 tests/                       Unit, integration, API, and smoke tests
-*.md                         Original project specifications
+README.md, BUILD_STATUS.md   Essential public documentation
 ```
 
 ## Installation
@@ -228,4 +228,3 @@ Important outputs include:
 7. Describe how the same generated evidence powers reports, SQLite, API endpoints, and dashboard views without duplicated hard-coded results.
 
 See [`BUILD_STATUS.md`](BUILD_STATUS.md) for the latest validated build record.
-
